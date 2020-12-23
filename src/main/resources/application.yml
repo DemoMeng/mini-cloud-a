@@ -1,0 +1,13 @@
+
+server:
+  port: 1123
+
+spring:
+  application:
+    name: mini-cloud-a
+  #服务注册中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
